@@ -118,10 +118,21 @@ print(e2f["walrus"]);
 # 内包辞書
 f2e = {french : english for english, french in e2f.items()};
 print(f2e);
-
 # 3-13
 print(f2e["chien"]);
 
 # 3-14
 set_e2f = set(e2f.keys());
 print(set_e2f);
+
+# 3-15
+life = {"animals" : {"cats" : ["Henri", "Grumpy", "Lucy"], "octopi" : {}, "emus" : {}}, "plants" : {}, "other" : {}};
+
+# 3-16
+print(life.keys());
+
+#3-17
+print(life["animals"]);
+
+#3-18
+print(life["animals"]["cats"]);
