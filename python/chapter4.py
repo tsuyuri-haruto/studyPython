@@ -3,4 +3,6 @@ french = 'Lundi', 'Mardi', 'Mercredi';
 dict( zip(english, french) );
 
 rows = range(1,10);
-print(type(rows));
+cols = range(2,10);
+
+cells = [(row, col) for row in rows for col in cols]
